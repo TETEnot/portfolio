@@ -1,0 +1,250 @@
+body {
+    font-family: "Avenir Next";
+    line-height: 1;
+    min-width: 1024px;
+  }
+  
+  li {
+    list-style: none;
+  }
+
+  #wraper {
+    background-image: url("Videotogif.gif");
+  }
+
+  .second {
+    background-color: rgba(0, 0, 0, 0.699);
+  }
+  
+  .header {
+    color: #fff;
+    background-color: #a685e2;
+    height: 90px;
+    width: 100%;
+    border-bottom: solid 10px  #6155a6;
+    margin-top: -20px;
+  }
+  
+  .header-logo {
+    float: left;
+    font-size: 36px;
+    padding: 25px 40px;
+  }
+  
+  .header-list li {
+    float: left;
+    padding: 26px 20px;
+    text-decoration: none; 
+  }
+  
+  .menu {
+    list-style: none;
+    padding-left: 5px;
+    top: 5px;
+    padding-top: 1px;
+  }
+  
+  .menu a{
+    text-decoration:none; 
+    padding-top: 50px;
+  }
+
+  .link {
+    z-index:-1;
+  }
+
+  .own-twitter　{
+    padding-top: 40px;
+    position: absolute;
+    height: 30px;
+    padding-left: 5000%;
+  }
+
+  .own-behance　{
+    padding-top: 40px;
+    position: absolute;
+    height: 30px;
+    padding-left: 1000%;
+  }
+
+  .moji {
+    color: white;
+    text-align: center;
+  }
+
+  h1 {
+    position: relative;/*相対位置*/
+    line-height: 1.4;/*行高*/
+    display: inline-block;
+    padding-left: 35%;
+  }
+  
+  h1:before, h1:after { 
+    position: relative;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    display: inline-block;
+    font-size: 1.0em;
+    color: #ffabe2;
+  }
+
+  h1:before {
+    content:"\f053";/*アイコン種類*/
+    padding-right: 0.5em
+  }
+
+  h1:after {
+    content:"\f054";/*アイコン種類*/
+    padding-left: 0.5em
+  }
+
+  footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 240px;
+    background: rgb(20, 44, 112);
+    color: #fff;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 30px;
+    z-index: 2;
+    top: 100px;
+  }
+  
+  footer .pagetop {
+    position: absolute;
+    right: 25px;
+    top: -45px;
+    text-align: center;
+    font-size: 15px;
+    color: #333;
+  }
+  
+  footer .pagetop img {
+    display: block;
+    margin: 0 auto 10px;
+    position: relative;
+    top: 0;
+  }
+  
+  footer .pagetop:hover img {
+    top: -5px;
+  }
+  
+  footer a {
+    color: #fff;
+  }
+  
+  footer nav {
+    margin-top: 35px;
+  }
+  
+  footer nav ul {
+    text-align: center;
+  }
+  
+  footer nav li {
+    margin: 0 14px;
+    display: inline-block;
+    font-size: 13px;
+    vertical-align: middle;
+  }
+  
+  footer nav li path {
+    fill: #fff;
+  }
+  
+  footer nav li:nth-last-of-type(1) {
+    display: block;
+    font-size: 12px;
+    margin-top: 25px;
+    font-weight: 600;
+  }
+  
+  footer nav a:hover {
+    text-decoration: underline;
+  }
+  
+  footer .copyright {
+    font-size: 11px;
+    margin-top: 43px;
+  }
+  
+  .current {
+    font-size: 20px;
+  }
+  
+  .wrap {
+    overflow: hidden;
+  }
+
+/*============================
+タブレット端末 960px未満
+============================*/
+
+@media screen and (max-width: 959px) {
+
+  .header {
+    color: #fff;
+    background-color: #a685e2;
+    height: 150px;
+    width: 100%;
+    border-bottom: solid 10px  #6155a6;
+  }
+
+  .header-logo {
+    float: left;
+    font-size: 75px;
+    padding: 40px 40px;
+  }
+
+  .menu {
+    list-style: none;
+    padding-left: 5px;
+    top: 5px;
+    padding-top: 45px;
+  }
+
+  .link {
+    z-index:-1;
+    font-size: 35px;
+    padding-top: 51px;
+  }
+
+  .own-behance　{
+    top: 40px;
+    position: absolute;
+    height: 30px;
+    padding-left: 100%;
+  }
+
+  h1 {
+    position: relative;/*相対位置*/
+    line-height: 1.4;/*行高*/
+    display: inline-block;
+    font-size: 50px;
+    word-break: keep-all;
+    padding-left: 30%;
+  }
+  
+  h1:before, h1:after { 
+    position: relative;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    display: inline-block;
+    font-size: 1.0em;
+    color: #ffabe1;
+  }
+
+  h1:before {
+    content:"\f053";/*アイコン種類*/
+    padding-right: 0.5em
+  }
+
+  h1:after {
+    content:"\f054";/*アイコン種類*/
+    padding-left: 0.5em
+  }
+
+  }
